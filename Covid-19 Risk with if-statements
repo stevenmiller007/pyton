@@ -1,0 +1,15 @@
+#Check you are in risky group or not (COVID-19)
+age = input("Are you a cigarette addict older than 75 years old? (Yes or No)")
+chronic = input("Do you have a severe chronic disease? (Yes or No)")
+immune = input("Is your immune system too weak? (Yes or No)")
+
+if age == "Yes" and chronic == "Yes" and immune == "Yes":
+    print("You are in risky group")   
+elif age == "Yes" or chronic == "Yes" or immune == "Yes":
+    print("You are in risky group.")
+else:
+    print("You are not in risky group.")
+
+
+    
+
